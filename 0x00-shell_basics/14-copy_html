@@ -1,2 +1,3 @@
 #!/bin/bash
 cp --update *.html /root
+cp -u *.html /root
