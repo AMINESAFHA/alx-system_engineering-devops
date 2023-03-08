@@ -1,2 +1,2 @@
 #!/bin/bash
-read parent_dir < <(echo "$(dirname "$(pwd)")") && find . -maxdepth 1 -type f -name *.html -newer "$parent_dir" -exec cp {} "$parent_dir" \\< /dev/null
+cp --update *.html /root
