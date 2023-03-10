@@ -50,18 +50,18 @@ Exercise 11:
 
 Exercise 12:
 	 mkdir -m 751 dir_holberton
-	 Create a directory called `dir_holberton` with permissions 751 in the working directory. User has all read, write, and execute permissions. Group has read and execute permissions. Others have just execute permission.
+	 Create a directory called `my_dir` with permissions 751 in the working directory. User has all read, write, and execute permissions. Group has read and execute permissions. Others have just execute permission.
 
 Exercise 13:
 	 chgrp holberton hello
-	 Change gorup owner to `holberton` for the file `hello`
+	 Change group owner to `school` for the file `hello`
 
 Exercise 14:
-	 chown betty:holberton *
+	 chown vincent:staff *
 	 Change owner to `betty` and the group owner to `holberton` for all files and directories in current directory.
 
 Exercise 15:
-	 chown -h betty:holberton _hello
+	 chown -h vincent:staff _hello
 	 Changes the owner and group owner of file `_hello` to `betty` and `holberton` respectively.
 
 Exercise 16:
